@@ -18,6 +18,11 @@
   font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 1rem;
+  background: linear-gradient(to right, #ffc400, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-shadow: 0 0 10px rgba(151, 151, 151, 0.2);
   @include mobile {
     font-size: 1.7rem;
@@ -32,4 +37,12 @@
   @include mobile {
     font-size: 1rem;
   }
+}
+
+.highlight {
+  background: linear-gradient(to right, #ffc400, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
