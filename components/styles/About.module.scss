@@ -1,0 +1,35 @@
+@import "./mixins.scss";
+
+.about {
+  background: black;
+  padding: 1rem;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(151, 151, 151, 0.2);
+  @include mobile {
+    font-size: 1.7rem;
+  }
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: rgb(182, 182, 182);
+  @include mobile {
+    font-size: 1rem;
+  }
+}
