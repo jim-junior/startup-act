@@ -1,3 +1,4 @@
+@import "./mixins.scss";
 .root {
   background-color: whitesmoke;
 }
@@ -35,8 +36,14 @@
   flex-direction: row;
   max-width: 900px;
   margin: 10px auto;
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 .column {
   width: 41.666667%;
+  @include mobile {
+    width: 90%;
+  }
 }
