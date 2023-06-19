@@ -1,8 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Uganda Startup Act Project
 
-## Getting Started
+<h1 align="center" >
 
-First, run the development server:
+[![Uganda Startup Act](./assets/logo.png)](https://www.startupact.ug/)
+
+</h1>
+
+The Uganda Startup Act project is an initiative by Uganda's tech startup ecosystem and the Government to harness the potential of our digital economy through co-created regulations.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Goals](#goals)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+The Uganda Startup Act project aims to create a conducive environment for tech startups in Uganda by developing a comprehensive set of regulations that support their growth and innovation. By fostering collaboration between the startup ecosystem and the government, we intend to drive economic development, attract investments, and promote job creation in the digital sector.
+
+## Goals
+
+- Foster innovation and entrepreneurship in Uganda's tech startup ecosystem.
+- Develop a regulatory framework that supports the growth and sustainability of startups.
+- Attract local and international investments to fuel the digital economy.
+- Streamline bureaucratic processes and reduce barriers for startups.
+- Encourage public-private partnerships to drive the digital transformation.
+
+## Key Features
+
+- [ ] **Co-creation**: The regulations will be developed collaboratively by stakeholders from the startup ecosystem and the government, ensuring inclusivity and relevance.
+- [ ] **Startup Support Programs**: The project will establish initiatives and programs to provide mentorship, funding, and resources for startups to thrive.
+- [ ] **Simplified Licensing**: The aim is to simplify licensing procedures, making it easier for startups to operate and comply with legal requirements.
+- [ ] **Investment Incentives**: The project will propose incentives to attract local and foreign investments into the startup ecosystem.
+- [ ] **Policy Advocacy**: Advocacy efforts will be undertaken to promote the understanding and adoption of startup-friendly policies at various levels.
+
+## Technologies Used
+
+- Frontend: [Next js](https://nextjs.org/), [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Version Control: [Git](https://git-scm.com/)
+- Deployment: [Vercel](https://vercel.com/)
+
+## Installation
+
+To get started with the Uganda Startup Act project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/uganda-startup-act.git`
+2. Install the required dependencies: `npm install`
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm i
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
@@ -14,21 +72,14 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Please refer to the project's documentation for detailed instructions on how to use the Uganda Startup Act project.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from individuals and organizations who are passionate about supporting the growth of Uganda's tech startup ecosystem. If you would like to contribute, please follow our [contribution guidelines](CONTRIBUTING.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Uganda Startup Act project is licensed under the [MIT License](LICENSE).
