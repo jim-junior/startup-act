@@ -40,11 +40,11 @@ const NewsLetter = () => {
               </a>
             </div>
             <div className={styles.socialItem}>
-              <a href="#" className={styles.card}>
-                <p className={styles.cardTitle}>Twitter</p>
-                <p className={styles.cardCaption}>Follow <span>@startupactug</span> on twitter to get latest updates from us.</p>
+              <a href="https://techbuzzhub.org/startups-in-uganda-make-progressive-steps/" className={styles.card}>
+                <p className={styles.cardTitle}>Learn More</p>
+                <p className={styles.cardCaption}>Read this article to learn more about the progress of the Startup Act.</p>
                 <p className={styles.learnMore}>
-                  <span>Follow</span>
+                  <span>Read</span>
                 </p>
               </a>
             </div>
